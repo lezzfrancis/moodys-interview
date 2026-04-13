@@ -1,0 +1,10 @@
+requests
+ollama
+bs4
+dotenv
+playwright
+mcp
+BeautifulSoup4
+lxml
+streamlit
+#gradio
