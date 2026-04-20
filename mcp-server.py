@@ -33,8 +33,8 @@ logger = logging.getLogger(__name__)
 DEFAULT_LOGIN_URL = os.getenv("MOODYS_LOGIN_URL", "https://login.moodys.com")
 DEFAULT_SESSION_FILE = os.getenv("MOODYS_SESSION_FILE", "moodys_auth_state.json")
 DEFAULT_HEADLESS = os.getenv("MOODYS_HEADLESS", "true").lower() == "true"
-DEFAULT_USERNAME = os.getenv("MOODYS_USERNAME", "francis.leslie@gmail.com")
-DEFAULT_PASSWORD = os.getenv("MOODYS_PASSWORD", "M@tr1xL0ngM00dys")
+DEFAULT_USERNAME = os.getenv("MOODYS_USERNAME", "")
+DEFAULT_PASSWORD = os.getenv("MOODYS_PASSWORD", "")
 
 # ============================================================
 # Company -> Moody's Entity ID map
