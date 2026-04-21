@@ -56,11 +56,11 @@ def manual_login_and_save_session(
 
 print(f'default password: {DEFAULT_PASSWORD} , {DEFAULT_USERNAME}')
 
-# manual_login_and_save_session(
-#                 login_url=DEFAULT_LOGIN_URL,
-#                 session_file=DEFAULT_SESSION_FILE,
-#                 headless=False,
-#             )
+manual_login_and_save_session(
+                login_url=DEFAULT_LOGIN_URL,
+                session_file=DEFAULT_SESSION_FILE,
+                headless=False,
+            )
 
   
 

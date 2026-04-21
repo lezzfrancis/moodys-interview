@@ -756,17 +756,16 @@ if __name__ == "__main__":
     #             headless=False,
     #         )
     mcp.run(transport="streamable-http")
-'''
-txt = scrape_moodys_entity(
-    company="Netflix",
-    auth_mode="session",
-    session_file=DEFAULT_SESSION_FILE,
-    login_url=DEFAULT_LOGIN_URL,
-    username=DEFAULT_USERNAME,
-    password=DEFAULT_PASSWORD,
-    headless=False,
-    save_debug_html=True,
-    debug_html_file="netflix_moodys.html",
-)
-print(txt)
-'''
+
+    # txt = scrape_moodys_entity(
+    # company="Netflix",
+    # auth_mode="session",
+    # session_file=DEFAULT_SESSION_FILE,
+    # login_url=DEFAULT_LOGIN_URL,
+    # username=DEFAULT_USERNAME,
+    # password=DEFAULT_PASSWORD,
+    # headless=False,
+    # save_debug_html=True,
+    # debug_html_file="netflix_moodys.html",
+    # )
+    # print(txt)

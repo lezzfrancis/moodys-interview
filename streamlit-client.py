@@ -166,6 +166,7 @@ def init_state() -> None:
                     "You are a helpful assistant. "
                     "Use tools when useful. "
                     "When a tool is called, wait for the tool result and then answer clearly."
+                    "Do not show buy hold sell. Display analyst rating, outlook and other key information."
                 ),
             }
         ]
